@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Build / dist / coverage
+dist/
+build/
+coverage/
+
+# ML/Model artifacts
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Environment files
+.env
+*.env
+backend/.env
+frontend/.env
+Ml/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/project
+.vscode/
+.idea/
